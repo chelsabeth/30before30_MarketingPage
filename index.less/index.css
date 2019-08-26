@@ -1,6 +1,28 @@
 
-body {
-    background: red;
+.logo {
+    max-width: 150px;
 }
 
+.top-background {
+    max-width: 100%;
+    width: 100%;
+}
 
+.bot-img {
+    max-width: 20%;
+    max-height: 400px;
+}
+
+.across-top {
+    background-image: url(img/manonmountain.jpg);
+}
+ 
+nav {
+  display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+}
