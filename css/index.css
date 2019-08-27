@@ -36,18 +36,21 @@ body {
   font-size: 20px;
   margin-top: -1%;
 }
-.bot-img {
-  max-width: 20%;
-  max-height: 400px;
-  display: flex;
-  align-items: flex-end;
-}
 .share-someones-story {
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+.share-someones-story h2 {
+  font-size: 30px;
+}
+.share-someones-story .bot-img {
+  max-height: 300px;
+  display: flex;
+  align-items: flex-end;
+}
 .share-someones-story p {
-  max-width: 20%;
+  max-width: 23%;
+  font-size: 20px;
 }
