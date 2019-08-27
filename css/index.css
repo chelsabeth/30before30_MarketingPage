@@ -1,16 +1,6 @@
-.logo {
+.across-top .logo {
   max-width: 175px;
   margin-left: -15%;
-}
-.top-background {
-  max-width: 100%;
-}
-.bot-img {
-  max-width: 20%;
-  max-height: 400px;
-}
-.across-top {
-  background-image: url(/img/manonmountain.jpg);
 }
 .across-top nav {
   display: flex;
@@ -25,8 +15,7 @@
   margin-top: 2.5%;
   margin-right: -10%;
 }
-h1 {
-  display: flex;
-  justify-content: center;
-  font-size: 45px;
+.share-someones-story .bot-img {
+  max-width: 20%;
+  max-height: 400px;
 }
