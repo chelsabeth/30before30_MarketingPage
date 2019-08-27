@@ -1,5 +1,9 @@
+body {
+  background: black;
+}
 .across-top .logo {
   max-width: 175px;
+  max-height: 150px;
   margin-left: -15%;
 }
 .across-top nav {
@@ -10,12 +14,40 @@
 }
 .across-top a {
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 25px;
   margin-top: 2.5%;
   margin-right: -10%;
 }
-.share-someones-story .bot-img {
+.top-img .under-nav {
+  max-width: 100%;
+}
+.mid-section {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mid-section h1 {
+  font-size: 50px;
+}
+.mid-section p {
+  max-width: 30%;
+  font-size: 20px;
+  margin-top: -1%;
+}
+.bot-img {
   max-width: 20%;
   max-height: 400px;
+  display: flex;
+  align-items: flex-end;
+}
+.share-someones-story {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.share-someones-story p {
+  max-width: 20%;
 }
