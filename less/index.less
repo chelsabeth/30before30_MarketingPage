@@ -5,8 +5,8 @@ body {
 .across-top {
 
     .logo {
-        max-width: 175px;
-        max-height: 150px;
+        width: 175px;
+        height: 150px;
         margin-left: -15%;
     }//closes .logo
 
@@ -14,7 +14,10 @@ body {
             display: flex;
             justify-content: space-around;
             align-items: flex-start;
-            /* background: whitesmoke; */
+            @media @phone {
+                display: flex;
+                flex-direction: column;
+            }
         } //closes nav
             
             a {
@@ -97,5 +100,7 @@ body {
                 font-size: 20px;
             }//closes p
 }//closes .share-someones-story
+
+
 
 
