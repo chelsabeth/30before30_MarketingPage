@@ -8,15 +8,16 @@ body {
         width: 175px;
         height: 150px;
         margin-left: -15%;
+        @media @phone {
+            display: none;
+        }
     }//closes .logo
 
         nav {
             display: flex;
-            justify-content: space-around;
             align-items: flex-start;
             @media @phone {
-                display: flex;
-                flex-direction: column;
+                
             }
         } //closes nav
             
