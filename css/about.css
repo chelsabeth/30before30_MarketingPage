@@ -33,17 +33,43 @@ body {
   margin-top: 5%;
 }
 .web23 {
-  color: white;
-}
-.web23 h2 {
   display: flex;
+  justify-content: center;
+}
+.web23 img {
+  justify-content: center;
+  border-radius: 25%;
+  width: 250px;
 }
 .front-end {
-  color: white;
+  display: flex;
+  justify-content: center;
+}
+.front-end img {
+  justify-content: center;
+  border-radius: 25%;
+  width: 250px;
 }
 .back-end {
-  color: white;
+  display: flex;
+  justify-content: center;
+}
+.back-end img {
+  justify-content: center;
+  border-radius: 25%;
+  width: 250px;
 }
 .PL {
+  display: flex;
+  justify-content: center;
+}
+.PL img {
+  justify-content: center;
+  border-radius: 25%;
+  width: 250px;
+}
+h2 {
   color: white;
+  display: flex;
+  justify-content: center;
 }
