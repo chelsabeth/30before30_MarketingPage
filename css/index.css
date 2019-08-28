@@ -1,6 +1,11 @@
 body {
   background: black;
 }
+@media (max-width: 500px) {
+  body {
+    background: red;
+  }
+}
 .across-top .logo {
   width: 175px;
   height: 150px;
@@ -64,4 +69,86 @@ body {
 .share-someones-story p {
   max-width: 23%;
   font-size: 20px;
+}
+body {
+  background: black;
+}
+.across-top {
+  border-bottom: 2px solid mediumvioletred;
+}
+.across-top .logo {
+  width: 175px;
+  height: 150px;
+  margin-left: -15%;
+  margin-bottom: 1%;
+}
+.across-top nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: space-between;
+}
+.across-top a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  margin-top: 2.5%;
+  margin-right: -10%;
+}
+.across-top .pink {
+  border: 1px solid mediumvioletred;
+  border-radius: 5%;
+  color: mediumvioletred;
+  padding: 5px;
+}
+.the-team {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  margin-top: 2%;
+}
+h2 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 4%;
+}
+.web23 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.web23 img {
+  justify-content: center;
+  border-radius: 50%;
+  width: 250px;
+}
+.front-end {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.front-end img {
+  justify-content: center;
+  border-radius: 50%;
+  width: 250px;
+}
+.back-end {
+  display: flex;
+  justify-content: center;
+}
+.back-end img {
+  justify-content: center;
+  border-radius: 50%;
+  width: 250px;
+}
+.PL {
+  display: flex;
+  justify-content: center;
+}
+.PL img {
+  justify-content: center;
+  border-radius: 50%;
+  width: 250px;
 }
