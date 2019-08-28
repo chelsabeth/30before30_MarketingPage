@@ -206,6 +206,10 @@ h3 {
 }
 .web23 i {
   color: white;
+  width: 10%;
+}
+.web23 h3 {
+  margin-left: 23%;
 }
 .front-end {
   display: flex;
