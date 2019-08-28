@@ -35,6 +35,15 @@ body {
 .web23 {
   color: white;
 }
+.web23 h2 {
+  display: flex;
+}
 .front-end {
+  color: white;
+}
+.back-end {
+  color: white;
+}
+.PL {
   color: white;
 }
