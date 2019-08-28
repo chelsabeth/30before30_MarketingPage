@@ -13,7 +13,7 @@ body {
         height: 150px;
         margin-left: -15%;
         @media @mobile {
-            display: none;
+        display: none; // WOULD LIKE TO MAKE A SMALL LOGO UP IN THE CORNER
         }//closes .logo mobile view
     }//closes .logo
 
@@ -34,8 +34,8 @@ body {
                 margin-top: 2.5%;
                 margin-right: -10%;
                 @media @mobile {
-
-                }
+                    margin-bottom: 20%;
+                }//closes a mobile view
             }//closes a 
 
 
@@ -44,7 +44,13 @@ body {
                     border-radius: 5%;
                     color: mediumvioletred;
                     padding: 5px;
-                }
+                }//closes .pink
+
+                        .log-in {
+                            @media @mobile {
+                                margin-left: 12%;
+                            }//closes .log-in mobile view
+                        }//closes .log-in
 }//closes across-top
 
 
