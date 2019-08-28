@@ -1,6 +1,9 @@
 body {
   background: black;
 }
+.across-top {
+  background: whitesmoke;
+}
 .across-top .logo {
   width: 175px;
   height: 150px;
@@ -14,7 +17,7 @@ body {
 }
 .across-top a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 25px;
   margin-top: 2.5%;
   margin-right: -10%;
@@ -30,24 +33,32 @@ body {
   display: flex;
   justify-content: center;
   font-size: 25px;
-  margin-top: 5%;
+  margin-top: 2%;
+}
+h2 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 4%;
 }
 .web23 {
   display: flex;
   justify-content: center;
+  justify-content: space-evenly;
 }
 .web23 img {
   justify-content: center;
-  border-radius: 25%;
+  border-radius: 50%;
   width: 250px;
 }
 .front-end {
   display: flex;
   justify-content: center;
+  justify-content: space-evenly;
 }
 .front-end img {
   justify-content: center;
-  border-radius: 25%;
+  border-radius: 50%;
   width: 250px;
 }
 .back-end {
@@ -56,7 +67,7 @@ body {
 }
 .back-end img {
   justify-content: center;
-  border-radius: 25%;
+  border-radius: 50%;
   width: 250px;
 }
 .PL {
@@ -65,11 +76,6 @@ body {
 }
 .PL img {
   justify-content: center;
-  border-radius: 25%;
+  border-radius: 50%;
   width: 250px;
-}
-h2 {
-  color: white;
-  display: flex;
-  justify-content: center;
 }
