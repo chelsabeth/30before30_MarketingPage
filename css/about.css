@@ -49,6 +49,7 @@ h2 {
 }
 h3 {
   color: white;
+  height: 22px;
 }
 .web23 {
   display: flex;
@@ -97,6 +98,16 @@ h3 {
   text-align: center;
 }
 .front-end .Hector {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.front-end .Jerry {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.front-end .Laura {
   display: flex;
   flex-direction: column;
   text-align: center;
