@@ -56,11 +56,15 @@ body {
 
 
 .top-img {
-    
-    .under-nav {
-        max-width: 100%;
-    }//closes .under-nav
+    @media @mobile {
+        border-bottom: 2px solid mediumvioletred;
+    }
+
+        .under-nav {
+            max-width: 100%;
+        }//closes .under-nav
 }//closes .top-img
+
 
 .mid-section {
     color: white;
@@ -71,12 +75,21 @@ body {
 
     h1 {
        font-size: 50px;
+       @media @mobile {
+           font-size: 30px;
+       }//closes h1 mobile view
     }//closes h1
 
         p {
-            max-width: 40%;
+            width: 40%;
             font-size: 25px;
             margin-top: -1%;
+            text-align: center;
+            @media @mobile {
+                font-size: 16px;
+                width: 100%;
+                display: flex;
+            }
         }//closes p
 }//closes .mid-section
 
@@ -108,7 +121,7 @@ body {
         }//closes .bot-img
 
             p {
-                max-width: 23%;
+                width: 23%;
                 font-size: 20px;
             }//closes p
 }//closes .share-someones-story
