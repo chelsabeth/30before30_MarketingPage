@@ -1,0 +1,40 @@
+body {
+  background: black;
+}
+.across-top .logo {
+  width: 175px;
+  height: 150px;
+  margin-left: -15%;
+}
+.across-top nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: space-between;
+}
+.across-top a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  margin-top: 2.5%;
+  margin-right: -10%;
+}
+.across-top .pink {
+  border: 1px solid mediumvioletred;
+  border-radius: 5%;
+  color: mediumvioletred;
+  padding: 5px;
+}
+.the-team {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  margin-top: 5%;
+}
+.web23 {
+  color: white;
+}
+.front-end {
+  color: white;
+}
