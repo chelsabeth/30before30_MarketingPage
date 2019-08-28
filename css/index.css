@@ -2,15 +2,15 @@ body {
   background: black;
 }
 .across-top .logo {
-  max-width: 175px;
-  max-height: 150px;
+  width: 175px;
+  height: 150px;
   margin-left: -15%;
 }
 .across-top nav {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
-  /* background: whitesmoke; */
+  align-content: space-between;
 }
 .across-top a {
   text-decoration: none;
@@ -21,7 +21,7 @@ body {
 }
 .across-top .pink {
   border: 1px solid mediumvioletred;
-  border-radius: 5px;
+  border-radius: 5%;
   color: mediumvioletred;
   padding: 5px;
 }
