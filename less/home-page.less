@@ -1,16 +1,20 @@
 body {
     background: black;
-    @media @mobile {
-        background: red;
-    }
-}
+}//closes body 
 
 .across-top {
+    @media @mobile {
+        display: flex;
+        justify-content: center;
+    }//closes .across-top mobile view
 
     .logo {
         width: 175px;
         height: 150px;
-        margin-left: -15%
+        margin-left: -15%;
+        @media @mobile {
+            display: none;
+        }//closes .logo mobile view
     }//closes .logo
 
         nav {
@@ -18,6 +22,9 @@ body {
             justify-content: space-around;
             align-items: flex-start;
             align-content: space-between;
+            @media @mobile {
+                flex-direction: column-reverse;
+            }//closes nav mobile view
         } //closes nav
             
             a {
@@ -26,6 +33,9 @@ body {
                 font-size: 25px;
                 margin-top: 2.5%;
                 margin-right: -10%;
+                @media @mobile {
+
+                }
             }//closes a 
 
 
@@ -55,7 +65,6 @@ body {
 
     h1 {
        font-size: 50px;
-
     }//closes h1
 
         p {

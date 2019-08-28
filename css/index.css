@@ -2,8 +2,9 @@ body {
   background: black;
 }
 @media (max-width: 500px) {
-  body {
-    background: red;
+  .across-top {
+    display: flex;
+    justify-content: center;
   }
 }
 .across-top .logo {
@@ -11,11 +12,21 @@ body {
   height: 150px;
   margin-left: -15%;
 }
+@media (max-width: 500px) {
+  .across-top .logo {
+    display: none;
+  }
+}
 .across-top nav {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
   align-content: space-between;
+}
+@media (max-width: 500px) {
+  .across-top nav {
+    flex-direction: column-reverse;
+  }
 }
 .across-top a {
   text-decoration: none;
