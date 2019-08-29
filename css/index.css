@@ -10,7 +10,7 @@ body {
 .across-top .logo {
   width: 175px;
   height: 150px;
-  margin-left: -10%;
+  margin-left: -12%;
 }
 @media (max-width: 500px) {
   .across-top .logo {
@@ -169,7 +169,7 @@ body {
 .across-top .logo {
   width: 175px;
   height: 150px;
-  margin-left: -10%;
+  margin-left: -12%;
   margin-bottom: 1%;
 }
 @media (max-width: 500px) {
@@ -206,6 +206,11 @@ body {
   color: mediumvioletred;
   padding: 5px;
 }
+@media (max-width: 500px) {
+  .across-top .home {
+    margin-left: 17%;
+  }
+}
 .the-team {
   color: white;
   display: flex;
@@ -216,7 +221,7 @@ body {
 }
 @media (max-width: 500px) {
   .the-team {
-    font-size: 15px;
+    font-size: 20px;
   }
 }
 h1 {
@@ -228,6 +233,13 @@ h2 {
   justify-content: center;
   margin-bottom: 3%;
   margin-top: 3%;
+}
+@media (max-width: 500px) {
+  h2 {
+    font-size: 20px;
+    margin-bottom: -5%;
+    margin-top: 5%;
+  }
 }
 h3 {
   color: white;
@@ -253,7 +265,7 @@ h3 {
 }
 @media (max-width: 500px) {
   .web23 img {
-    margin-left: 21%;
+    margin-left: 18%;
   }
 }
 .web23 .Chelsea,
@@ -289,17 +301,28 @@ h3 {
 }
 @media (max-width: 500px) {
   .front-end .laura {
-    margin-left: 21%;
+    margin-left: 18%;
   }
 }
 .back-end {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 500px) {
+  .back-end {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .back-end img {
   justify-content: center;
   border-radius: 50%;
   width: 250px;
+}
+@media (max-width: 500px) {
+  .back-end img {
+    margin-left: 18%;
+  }
 }
 .back-end .Brandon {
   display: flex;
@@ -310,6 +333,12 @@ h3 {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 500px) {
+  .PL {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .PL h2 {
   margin-top: 5%;
 }
@@ -317,6 +346,11 @@ h3 {
   justify-content: center;
   border-radius: 50%;
   width: 250px;
+}
+@media (max-width: 500px) {
+  .PL img {
+    margin-left: 18%;
+  }
 }
 .PL .Tunji {
   display: flex;
@@ -333,6 +367,11 @@ h3 {
 }
 .copyright p {
   margin-top: 1%;
+}
+@media (max-width: 500px) {
+  .copyright p {
+    margin-top: 5%;
+  }
 }
 i {
   color: mediumvioletred;
