@@ -50,6 +50,8 @@ h2 {
 h3 {
   color: white;
   height: 22px;
+  font-size: 25px;
+  color: mediumvioletred;
 }
 .web23 {
   display: flex;
@@ -61,19 +63,8 @@ h3 {
   border-radius: 50%;
   width: 250px;
 }
-.web23 i {
-  color: white;
-}
-.web23 .Chelsea {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-.web23 .Darren {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
+.web23 .Chelsea,
+.web23 .Darren,
 .web23 .Kevin {
   display: flex;
   flex-direction: column;
@@ -89,24 +80,9 @@ h3 {
   border-radius: 50%;
   width: 250px;
 }
-.front-end i {
-  color: white;
-}
-.front-end .Alec {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-.front-end .Hector {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-.front-end .Jerry {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
+.front-end .Alec,
+.front-end .Hector,
+.front-end .Jerry,
 .front-end .Laura {
   display: flex;
   flex-direction: column;
@@ -120,9 +96,6 @@ h3 {
   justify-content: center;
   border-radius: 50%;
   width: 250px;
-}
-.back-end i {
-  color: white;
 }
 .back-end .Brandon {
   display: flex;
@@ -141,9 +114,6 @@ h3 {
   border-radius: 50%;
   width: 250px;
 }
-.PL i {
-  color: white;
-}
 .PL .Tunji {
   display: flex;
   flex-direction: column;
@@ -159,4 +129,13 @@ h3 {
 }
 .copyright p {
   margin-top: 1%;
+}
+.icon-flex {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+i {
+  color: mediumvioletred;
 }
