@@ -96,10 +96,39 @@ body {
   } //closes p
 } //closes .mid-section
 
+.before-vid {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    h1 {
+      font-size: 30px;
+      margin-top: 2%;
+      @media @mobile {
+        font-size: 20px;
+        margin-top: 5%;
+      } //closes h1 mobile view
+    } //closes h1
+  
+    p {
+      width: 40%;
+      font-size: 20px;
+      margin-top: -1%;
+      text-align: center;
+      color: white;
+      @media @mobile {
+        font-size: 16px;
+        width: 100%;
+        display: flex;
+      }//closes p mobile view
+    } //closes p
+  } //closes .mid-section
+
 .youtube-vid {
   width: 100%;
   height: 500px;
-  margin-top: 5%;
+  margin-top: 1%;
 } //closes .youtube-vid
 
 .share-someones-story {
