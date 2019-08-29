@@ -206,16 +206,6 @@ body {
   color: mediumvioletred;
   padding: 5px;
 }
-@media (max-width: 500px) {
-  .across-top .home {
-    margin-left: 12%;
-  }
-}
-@media (max-width: 500px) {
-  .across-top .log-in {
-    margin-left: 12%;
-  }
-}
 .the-team {
   color: white;
   display: flex;
@@ -250,10 +240,21 @@ h3 {
   justify-content: center;
   justify-content: space-evenly;
 }
+@media (max-width: 500px) {
+  .web23 {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .web23 img {
   justify-content: center;
   border-radius: 50%;
   width: 250px;
+}
+@media (max-width: 500px) {
+  .web23 img {
+    margin-left: 21%;
+  }
 }
 .web23 .Chelsea,
 .web23 .Darren,
@@ -267,6 +268,12 @@ h3 {
   justify-content: center;
   justify-content: space-evenly;
 }
+@media (max-width: 500px) {
+  .front-end {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .front-end img {
   justify-content: center;
   border-radius: 50%;
@@ -279,6 +286,11 @@ h3 {
   display: flex;
   flex-direction: column;
   text-align: center;
+}
+@media (max-width: 500px) {
+  .front-end .laura {
+    margin-left: 21%;
+  }
 }
 .back-end {
   display: flex;

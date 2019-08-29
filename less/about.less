@@ -1,3 +1,7 @@
+@import "home-page";
+@import "about";
+@import "variable";
+
 body {
   background: black;
 } //closes body
@@ -46,18 +50,6 @@ body {
     color: mediumvioletred;
     padding: 5px;
   }
-
-  .home {
-    @media @mobile {
-      margin-left: 12%;
-    } //closes .log-in mobile view
-  } //closes .log-in
-
-  .log-in {
-    @media @mobile {
-      margin-left: 12%;
-    } //closes .log-in mobile view
-  } //closes .log-in
 } //closes across-top
 
 .the-team {
@@ -95,11 +87,18 @@ h3 {
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
+  @media @mobile {
+      display: flex;
+      flex-direction: column;
+  }//closes .web23 mobile view
 
   img {
     justify-content: center;
     border-radius: 50%;
     width: 250px;
+    @media @mobile {
+        margin-left: 21%;
+    }//closes img mobile view
   } //closes img
 
   .Chelsea,
@@ -108,13 +107,17 @@ h3 {
     display: flex;
     flex-direction: column;
     text-align: center;
-  }
+  }//closes classes for UI/UX
 } //closes .web23
 
 .front-end {
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
+  @media @mobile {
+    display: flex;
+    flex-direction: column;
+  }//closes .front-end mobile view
 
   img {
     justify-content: center;
@@ -129,13 +132,21 @@ h3 {
     display: flex;
     flex-direction: column;
     text-align: center;
-  }//closes 
+  }//closes classes for front end
 
+    .laura{
+        @media @mobile {
+            margin-left: 21%;
+        }
+    }
 } //closes .front-end
 
 .back-end {
     display: flex;
     justify-content: center;
+    @media @mobile {
+        display: flex;
+        flex-direction: column;
     
     img {
         justify-content: center;
