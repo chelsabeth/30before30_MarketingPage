@@ -101,7 +101,7 @@ body {
 }
 .before-vid h1 {
   font-size: 30px;
-  margin-top: 2%;
+  margin-top: 5%;
 }
 @media (max-width: 500px) {
   .before-vid h1 {
