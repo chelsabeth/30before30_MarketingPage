@@ -10,7 +10,7 @@ body {
 .across-top .logo {
   width: 175px;
   height: 150px;
-  margin-left: -15%;
+  margin-left: -10%;
 }
 @media (max-width: 500px) {
   .across-top .logo {
@@ -48,6 +48,11 @@ body {
 }
 @media (max-width: 500px) {
   .across-top .log-in {
+    margin-left: 12%;
+  }
+}
+@media (max-width: 500px) {
+  .across-top .home {
     margin-left: 12%;
   }
 }
@@ -155,17 +160,33 @@ body {
 .across-top {
   border-bottom: 2px solid mediumvioletred;
 }
+@media (max-width: 500px) {
+  .across-top {
+    display: flex;
+    justify-content: center;
+  }
+}
 .across-top .logo {
   width: 175px;
   height: 150px;
-  margin-left: -15%;
+  margin-left: -10%;
   margin-bottom: 1%;
+}
+@media (max-width: 500px) {
+  .across-top .logo {
+    display: none;
+  }
 }
 .across-top nav {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
   align-content: space-between;
+}
+@media (max-width: 500px) {
+  .across-top nav {
+    flex-direction: column-reverse;
+  }
 }
 .across-top a {
   text-decoration: none;
@@ -174,11 +195,26 @@ body {
   margin-top: 2.5%;
   margin-right: -10%;
 }
+@media (max-width: 500px) {
+  .across-top a {
+    margin-bottom: 20%;
+  }
+}
 .across-top .pink {
   border: 1px solid mediumvioletred;
   border-radius: 5%;
   color: mediumvioletred;
   padding: 5px;
+}
+@media (max-width: 500px) {
+  .across-top .home {
+    margin-left: 12%;
+  }
+}
+@media (max-width: 500px) {
+  .across-top .log-in {
+    margin-left: 12%;
+  }
 }
 .the-team {
   color: white;
@@ -187,6 +223,11 @@ body {
   font-size: 25px;
   margin-top: 5%;
   margin-bottom: 2%;
+}
+@media (max-width: 500px) {
+  .the-team {
+    font-size: 15px;
+  }
 }
 h1 {
   margin-top: -2%;
@@ -258,7 +299,7 @@ h3 {
   justify-content: center;
 }
 .PL h2 {
-  margin-top: %;
+  margin-top: 5%;
 }
 .PL img {
   justify-content: center;
@@ -281,12 +322,12 @@ h3 {
 .copyright p {
   margin-top: 1%;
 }
+i {
+  color: mediumvioletred;
+}
 .icon-flex {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-}
-i {
-  color: mediumvioletred;
 }

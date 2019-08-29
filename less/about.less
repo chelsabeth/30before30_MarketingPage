@@ -4,12 +4,19 @@ body {
 
 .across-top {
   border-bottom: 2px solid mediumvioletred;
+  @media @mobile {
+    display: flex;
+    justify-content: center;
+  }
 
   .logo {
     width: 175px;
     height: 150px;
-    margin-left: -15%;
+    margin-left: -10%;
     margin-bottom: 1%;
+    @media @mobile {
+        display: none;
+    }
   } //closes .logo
 
   nav {
@@ -17,6 +24,9 @@ body {
     justify-content: space-around;
     align-items: flex-start;
     align-content: space-between;
+    @media @mobile {
+        flex-direction: column-reverse;
+    }
   } //closes nav
 
   a {
@@ -25,6 +35,9 @@ body {
     font-size: 25px;
     margin-top: 2.5%;
     margin-right: -10%;
+    @media @mobile {
+        margin-bottom: 20%;
+      } //closes a mobile view
   } //closes a
 
   .pink {
@@ -33,6 +46,18 @@ body {
     color: mediumvioletred;
     padding: 5px;
   }
+
+  .home {
+    @media @mobile {
+      margin-left: 12%;
+    } //closes .log-in mobile view
+  } //closes .log-in
+
+  .log-in {
+    @media @mobile {
+      margin-left: 12%;
+    } //closes .log-in mobile view
+  } //closes .log-in
 } //closes across-top
 
 .the-team {
@@ -42,6 +67,9 @@ body {
   font-size: 25px;
   margin-top: 5%;
   margin-bottom: 2%;
+  @media @mobile { 
+      font-size: 15px;
+  }
 } //closes .the-team
 
 h1 {
@@ -127,7 +155,7 @@ h3 {
     justify-content: center;
     
     h2 {
-        margin-top: %;
+        margin-top: 5%;
     }
     
     img {
@@ -156,13 +184,13 @@ h3 {
     }
 } //closes .copyright
 
+i {
+    color: mediumvioletred;
+}//closes i
+
 .icon-flex {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-}
-
-i {
-    color: mediumvioletred;
-  } //closes icons
+} 
